@@ -9,9 +9,11 @@ $('#tab li').click(function (e) {
 /**
  * Add drag & drop behaviour
  **/
-$(".draggable").draggable({helper: 'clone',snap : '.droppable'});
+$(".draggable").draggable({helper: 'clone', snap: '.droppable'});
 $(".droppable").droppable({
     drop: function (event, ui) {
-        ui.draggable.clone().appendTo($(this)).draggable();
+
+        alert(ui.draggable);
+        ui.draggable.children(":first").clone().css("font-size","64px").appendTo($(this)).draggable();
     }
 });
