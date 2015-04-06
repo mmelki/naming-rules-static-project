@@ -1,0 +1,34 @@
+
+
+
+body{
+    /*margin: 7%;*/
+}
+
+#container{
+    margin: 7% 12%;
+}
+
+#palette{
+    width: 100%;
+    height: 455px;
+    margin-top: -15px;
+    border: #000 2px solid;
+}
+
+
+#area{
+    width: 100%;
+    height: 380px;
+    border: #ddd thin solid;
+    border-top: none;
+}
+
+.list-group-item{
+    padding: 0;
+    padding-top: 8px;
+}
+
+.list-group-item > i{
+    margin-left: -5%;
+}
