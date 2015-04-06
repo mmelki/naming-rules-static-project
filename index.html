@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div id="container">
+
+    <nav class="col-md-3">
+        <div class="panel panel-primary" style="margin-top: -30px;">
+            <div class="panel-heading" style="text-align: center;"><h4>Fields</h4></div>
+
+            <ul class="list-group" style="text-align: center;">
+                <a class="list-group-item draggable"><i class="glyphicon glyphicon-plus-sign"></i><span class="row"
+                                                                                                        style="font-size: 11px;text-align: center;">Auto-incrementer</span></a>
+                <a class="list-group-item draggable"><i class="glyphicon glyphicon-calendar"></i><span class="row"
+                                                                                                       style="font-size: 11px;text-align: center;">Date</span></a>
+                <a class="list-group-item draggable"><i class="glyphicon glyphicon-duplicate"></i><span class="row"
+                                                                                                        style="font-size: 11px;text-align: center;">Type</span></a>
+                <a class="list-group-item draggable"><i class="glyphicon glyphicon-flag"></i><span class="row"
+                                                                                                   style="font-size: 11px;text-align: center;">Status</span></a>
+                <a class="list-group-item draggable"><i class="glyphicon glyphicon-blackboard"></i><span class="row"
+                                                                                                         style="font-size: 11px;text-align: center;">Project</span></a>
+                <a class="list-group-item draggable"><i class="glyphicon glyphicon-pencil"></i><span class="row"
+                                                                                                     style="font-size: 11px;text-align: center;">Fixed label</span></a>
+                <a class="list-group-item draggable"><i class="glyphicon glyphicon-scissors"></i><span class="row"
+                                                                                                       style="font-size: 11px;text-align: center;">Separator</span></a>
+            </ul>
+        </div>
+
+    </nav>
+    <article class="col-md-9">
+        <ul class="nav nav-tabs" id="tab">
+            <li role="presentation" class="active"><a href="#">Naming Rule</a></li>
+            <li role="presentation"><a href="#">Settings</a></li>
+        </ul>
+        <div id="area" class="droppable">
+
+        </div>
+        <input class="btn btn-default col-md-offset-10" style="margin-top: 10px;" type="submit" value="Submit">
+    </article>
+
+</div>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="js/jquery-ui.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/interact-1.2.4.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
